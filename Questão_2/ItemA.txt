@@ -1,0 +1,30 @@
+package  com.trabalhoBimestral ;
+
+importar  java.util.Scanner ;
+
+ classe  pública Exer2ItemA {
+
+   public  static  void  main ( String [] args ){
+     
+     Entrada do scanner =  novo  Scanner ( System . in);
+     
+     
+     Sistema . fora . println( da área de um triângulo "cálculo " ) ;
+     
+     
+     Sistema . fora . println( " Base do triângulo: " );
+     duplo  A  = entrada . próximoDouble(); // Base
+     
+     Sistema . fora . println( " Altura do triângulo: " );
+     duplo  C  = entrada . próximoDouble(); // Altura
+     entrada . Fechar();
+     
+     // B = Área
+     duplo  B ;
+     B  = ( A  *  C ) / 2 ;
+     
+     Sistema . fora . print( " Área = " + String . format( " %.2f " , B ));
+     
+
+     
+   }

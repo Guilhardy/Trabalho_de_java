@@ -1,0 +1,30 @@
+package  com.trabalhoBimestral ;
+
+
+ classe  pública Exer3 {
+   
+   public  static  void  main ( String [] args ){
+     
+     Sistema . fora . println( " Cálculo da fórmula de Bhaskara " );
+     Sistema . fora . println( " A = 3; B = 15; C = 12 \n " );
+     
+     duplo x1;
+     duplo x2;
+     
+     duplo  A  =  3 ;
+     duplo  B  =  15 ;
+     duplo  C  =  12 ;
+     
+     duplo delta;
+     
+     delta =  matemática . sqrt( Math . pow( B , 2.0 ) -  4 * A * C );
+     
+     x1 = ( - B  + delta) / ( 2 * A );
+     x2 = ( - B  - delta) / ( 2 * A );
+     
+     Sistema . fora . println( " x1 = " + x1);
+     Sistema . fora . println( " x2 = " + x2);
+
+   }
+
+}

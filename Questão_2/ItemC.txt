@@ -1,0 +1,29 @@
+package  com.trabalhoBimestral ;
+
+importar  java.util.Scanner ;
+
+ classe  pública Exer2ItemC {
+   public  static  void  main ( String [] args ){
+     
+     Entrada do scanner =  novo  Scanner ( System . in);
+     
+     Sistema . fora . println( " Cálculo da área de um trapézio " );
+     
+     
+     Sistema . fora . println( " Base maior: " );
+     duplo  A  = entrada . próximoDouble(); // base maior
+     
+     Sistema . fora . println( " Base menor: " );
+     duplo  B  = entrada . próximoDouble(); // base menor
+      
+     Sistema . fora . println( " Altura: " );
+     duplo  C  = entrada . próximoDouble(); // ALTURA
+     entrada . Fechar();
+     
+     área dupla = (( A  +  B ) * C ) / 2 ;
+     
+     Sistema . fora . println( " Área do trapézio: " + String . format( " %.2f " , area));
+     
+   }
+
+}

@@ -1,0 +1,23 @@
+package  com.trabalhoBimestral ;
+
+importar  java.util.Scanner ;
+
+ classe  pública Exer2ItemD {
+   
+   public  static  void  main ( String [] args ){
+     
+     Sistema . fora . println( " Cálculo da área de um quadrado " );
+     
+     Entrada do scanner =  novo  Scanner ( System . in);
+     
+     Sistema . fora . println( " Digite o valor do lado: " );
+     duplo  B  = entrada . próximoDouble(); // lado
+     entrada . Fechar();
+     
+     duplo  C  =  Math . pow( B , 2,0 ); // área
+     
+     Sistema . fora . println( " Área do quadrado: "  +  String . format( " %.2f " , C ));
+     
+     
+   }
+}

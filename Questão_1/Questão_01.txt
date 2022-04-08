@@ -1,0 +1,26 @@
+package  com.trabalhoBimestral ;
+
+importar  java.util.Scanner ;
+
+ classe  pública Exer1 {
+
+  public  static  void  main ( String [] args ) {
+    
+    
+    Entrada do scanner =  novo  Scanner ( System . in);
+    duplo pi =  3,141519 ;
+    // ou Math.PI
+    
+    Sistema . fora . println( " Digite o raio: " );
+    raio duplo = entrada . próximoDouble();
+    entrada . Fechar();
+    
+    área dupla ;
+
+    área = pi *  Math . pow(raio, 2,0 );
+  
+    
+    
+    Sistema . fora . print( " Área do círculo: "  +  String . format( " %.4f " , area));
+  }
+}

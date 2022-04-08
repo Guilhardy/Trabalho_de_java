@@ -1,0 +1,26 @@
+package  com.trabalhoBimestral ;
+
+importar  java.util.Scanner ;
+
+ classe  pública Exer2ItemE {
+
+   
+   public  static  void  main ( String [] args ){
+ 
+     
+     Entrada do scanner =  novo  Scanner ( System . in);
+     Sistema . fora . println Cálculo da área de uma aparência " " );
+     
+     Sistema . fora . println( " Base: " );
+     duplo  A  = entrada . próximoDouble();
+     
+     Sistema . fora . println( " Altura: " );
+     duplo  B  = entrada . próximoDouble();
+     entrada . Fechar();
+     
+     duplo  C  =  A  *  B ;
+     
+     Sistema . fora . println( " Área do que pode ser feito: "  +  String . format( " %.2f " , C ));
+     
+     
+   }
